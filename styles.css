@@ -191,3 +191,15 @@ textarea {
     font-size: inherit;
     line-height: inherit;
 }
+@media (min-width: 576px) {
+    #main {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #main{
+      max-width: 720px;
+    }
+  }
+  
