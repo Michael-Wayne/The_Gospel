@@ -8,7 +8,7 @@ html {
     box-sizing: border-box;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    text-size-adjust:100%;
+    text-size-adjust: 100%;
 }
 
 *,
@@ -62,7 +62,7 @@ main {
     display: block;
 }
 
-#page1-div h1{
+#page1-div h1 {
     text-align: center;
 }
 
@@ -84,7 +84,11 @@ main {
 .check-input {
     display: inline-block;
     margin-right: 0.625rem;
-    vertical-align: text-top;
+    /* vertical-align: text-top; */
+}
+
+.radio-label{
+    display: inline-block;
 }
 
 table tr td label {
@@ -165,19 +169,6 @@ table tr td input[type="radio"] {
     font-size: medium;
     border-radius: 0.25rem;
     text-align: center;
-}
-
-.left {
-    float: left;
-    width: 40%;
-    
-
-}
-
-.right {
-    float: right;
-    width: 60%;
-    
 }
 
 #OR {
