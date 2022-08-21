@@ -4,17 +4,17 @@
 
 
 html {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     box-sizing: border-box;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+    text-size-adjust:100%;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit
+    box-sizing: inherit;
 }
 
 
@@ -126,7 +126,6 @@ table tr td input[type="radio"] {
     text-align: start;
 }
 
-#cover-img,
 .body-img {
     display: block;
     max-width: 75%;
@@ -137,9 +136,9 @@ table tr td input[type="radio"] {
 .topic {
     display: block;
     text-transform: uppercase;
-    border: 1px dotted black;
+    border: 1px solid black;
     background-color: maroon;
-    text-align: justify;
+    text-align: center;
     color: whitesmoke;
     font-size: larger;
     padding: 0 0.25rem;
@@ -153,7 +152,7 @@ table tr td input[type="radio"] {
     text-transform: uppercase;
     border: 1px solid maroon;
     /* border-top: none; */
-    text-align: justify;
+    text-align: center;
     font-size: medium;
     border-radius: 0.25rem;
 }
@@ -165,6 +164,7 @@ table tr td input[type="radio"] {
     border: 1px solid maroon;
     font-size: medium;
     border-radius: 0.25rem;
+    text-align: center;
 }
 
 .left {
